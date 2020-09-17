@@ -1,0 +1,60 @@
+.separate-login div#kc-content-wrapper {
+	min-height: 100px;
+}
+
+/*fields*/
+input[type=text], input[type=password] {
+	color: #000;
+	margin-bottom: 10px;
+	background: #fff;
+	border: solid 1px #ccc;
+	padding: 6px 5px;
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 0;
+	font-size: 13px;
+}
+
+#kc-form-login {
+	min-height: 270px;
+	margin: 12px;
+}
+
+input[type=text]:hover, input[type=password]:hover {
+	background-color: rgba(3, 70, 114, 0.4);
+}
+/*button*/
+input[type=submit] {
+	border: none;
+	border-radius: 3px;
+	background-color: #3C9455;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+	color: rgba(0, 0, 0, 0.6);
+	color: white;
+	text-transform: uppercase;
+	padding: 7px;
+	margin-top: 3em;
+	width: 100%;
+	margin-top: 12px;
+}
+
+input[type=submit]:hover {
+	background-color: #f39c12;
+}
+
+input[type=submit] {
+	font-size: 13px;
+}
+
+div#kc-form label {
+	color: rgba(0, 0, 0, 0.7) !important;
+	display: block;
+}
+
+div#kc-form label {
+	font-size: 13px;
+	margin-bottom: :10px;
+	display: block;
+	margin-top: 15px;
+	margin-left:-30px;
+}

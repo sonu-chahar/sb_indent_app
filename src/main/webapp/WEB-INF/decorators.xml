@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<decorators defaultdir="/WEB-INF/_ui/decorators/">
+	<excludes>
+		<pattern>/40*.jsp</pattern>
+		<pattern>/error*.jsp</pattern>
+		<pattern>/registration</pattern>
+		<pattern>/landingPage</pattern>
+		<pattern>/homePage*</pattern>
+		<pattern>/websitePolicy.html*</pattern>
+		<pattern>/login*</pattern>
+		<pattern>/signUp*</pattern>
+	</excludes>
+	<decorator name="default" page="default.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+</decorators>

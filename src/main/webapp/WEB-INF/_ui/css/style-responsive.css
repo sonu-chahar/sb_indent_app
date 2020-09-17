@@ -1,0 +1,36 @@
+/*Custom Media Query for mobile max-width:640px and min-width:320px*/
+@media (max-width:736px) and (min-width:320px) {
+	.form-inn {
+		width:100%;
+		padding: 15px;
+		margin-top: 0;
+	}
+	.login-page-space .logo {
+		text-align:center;
+	}
+	.welcome-msg {
+	    text-align: center;
+	    font-size: 13px;
+	    margin-top: 7px;
+	}
+	#sidebarCollapse {
+		margin-left:15px;
+	}
+	#content {
+		overflow:visible;
+	}
+	.student-portal {
+	    padding: 15px 15px 15px 15px;
+	    margin-bottom: 15px;
+	}
+	.right-menu {
+		display: block;
+	    position: absolute;
+	    right: 15px;
+	    top: 0px;
+	}
+	.circle {
+	    left: 38%;
+	}
+	
+}

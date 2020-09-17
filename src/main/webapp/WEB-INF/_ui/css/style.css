@@ -1,0 +1,130 @@
+#page-wrapper {
+    /* background: #e9f4f8 !important; */
+}
+.chartbox4{
+	background: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+	border-radius: 10px;
+	height: 250px;
+	width: auto;
+}
+#age_wise_chart > svg {
+	margin-top: -40px;
+	margin-left: 50px;
+}
+.div_padding{
+	padding: 5px 20px;
+}
+.checkbox > label {
+	display: inline-block;
+	margin: 3px 0;
+}
+.scroll_box{
+	overflow-y:auto;
+	height: 200px; 
+    display: block;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+.sidebar{
+	height: calc(100vh - 51px);
+	overflow-y: auto;
+}
+.select_class{
+	height: 25px;
+	width: 100%;
+	border-radius: 2px;
+	background: #F4F4F4;
+	border: 1px solid #A6ACAF;
+	color: #868686;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #D7DBDD; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1E8CC8; 
+}
+/* width */
+::-moz-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+::-moz-scrollbar-track {
+    background: #D7DBDD; 
+}
+ 
+/* Handle */
+::-moz-scrollbar-thumb {
+    background: #1E8CC8; 
+}
+
+/*===================pie chart start===============*/
+path.slice{
+  stroke-width:2px;
+}
+polyline{
+  opacity: .3;
+  stroke: black;
+  stroke-width: 2px;
+  fill: none;
+} 
+svg text.percent{
+  fill:white;
+  text-anchor:middle;
+  font-size:12px;
+}
+/*===================pie chart end===============*/
+
+.nav-tabs-dash>li.active>a, .nav-tabs-dash>li.active>a:focus, .nav-tabs-dash>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff !important;
+    border: 1px solid #fff !important;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs-dash > li > a:hover {
+    border-color: #fff #fff #fff !important;
+}
+.nav-tabs-dash > li > a:focus, .nav-tabs-dash > li > a:hover {
+    text-decoration: none;
+    background-color: #fff !important;
+    border: 1px solid #fff !important;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 20px 0 10px !important;
+    border-bottom: 1px solid #eee;
+}
+
+#ageOutputId1, #ageOutputId{
+	padding:3px 0px;background: #fff;
+    border: 1px solid #ccc;color:#555;border-radius: 50%;height: 25px;width: 25px;
+    font-size: 11px;font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+}
+#ageInputId1, #ageInputId{
+	margin-top: 5px;
+}
+
+
+.nav-tabs { border-bottom: 2px solid #DDD; }
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+    .nav-tabs > li > a { border: none; color: #ffffff; }
+        .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #4285F4 !important; background: transparent; }
+        .nav-tabs > li > a::after { content: ""; background: #4285F4; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+    .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
+.tab-pane { padding: 15px 0; }
+.tab-content{padding:0px;}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ALL < DEBUG < INFO < WARN < ERROR < FATAL < OFF -->
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="CONSOLE" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+
+		<Logger name="com.chahar" level="ALL" additivity="false">
+			<AppenderRef ref="CONSOLE" />
+		</Logger>
+		<Logger name="org.springframework" level="ALL"
+			additivity="false">
+			<AppenderRef ref="CONSOLE" />
+		</Logger>
+		<Logger name="org.hibernate" level="ERROR" additivity="false">
+			<AppenderRef ref="CONSOLE" />
+		</Logger>
+
+		<Root level="DEBUG" additivity="false">
+			<AppenderRef ref="CONSOLE" />
+		</Root>
+	</Loggers>
+
+</Configuration>
